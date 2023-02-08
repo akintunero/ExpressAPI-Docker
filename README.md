@@ -18,7 +18,9 @@ Step 1:
 #### To initiate the dependencies
 
 Step 2:
+
         npm init
+        
         npm install --save
          
     
@@ -26,17 +28,20 @@ Step 2:
 #### To start the application
 
 Step 3:
+
         node index.js
 
 #### Launch application in the browser UI
 
 Step 4:
+
         http://localhost:3000
 
 
 #### Create a Dockerfile to build the image
 
 Step 5:
+
         FROM node:latest
         WORKDIR /app
         ADD . .
@@ -46,5 +51,6 @@ Step 5:
 #### Build the Dockerimage
 
 Step 6:
+
         docker build -t user-service-api:latest .
 
