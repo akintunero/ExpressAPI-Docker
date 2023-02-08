@@ -42,7 +42,7 @@ Step 4:
 
 Step 5:
 
-        FROM node:latest
+        FROM node:alpine
         WORKDIR /app
         ADD . .
         RUN npm install
