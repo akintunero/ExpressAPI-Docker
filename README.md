@@ -21,7 +21,7 @@ Step 2:
 
         npm init
         
-        npm install --save
+        npm install express --save
          
     
 
